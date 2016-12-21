@@ -8,4 +8,10 @@ layout: null
         <loc>https://raffaelesury.github.io{{ page.url | remove: 'index.html' }}</loc>
     </url>
     {% endfor %}
+    {% for post in site.posts %}
+    <url>
+        <loc>https://raffaelesury.github.io{{ page.url | remove: 'index.html' }}</loc>
+    </url>
+    {% endfor %}    
+    
 </urlset>
