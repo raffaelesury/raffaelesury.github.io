@@ -2,4 +2,4 @@
 layout: about
 ---
 
-See my LinkedIn profile. 
+This is an empty blog.
