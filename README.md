@@ -2,7 +2,7 @@
 My blog made with [jekyll](http://jekyllrb.com) and hosted with Github Pages.
 
 
-### Want a github page like this?
+### Want a github page like this one?
 
 * fork this repository
 * edit the `_config.yml` with your info
