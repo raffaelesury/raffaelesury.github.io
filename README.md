@@ -1,13 +1,14 @@
-# blog
+# Blog
 My blog made with [jekyll](http://jekyllrb.com) and hosted with Github Pages.
 
 
-### Install
+### Want a github page like this?
 
 * fork this repository
 * edit the `_config.yml` with your info
 * change the links in `_data/navigation.yml`
 * remove my posts from `_posts/`
+* remove all content under assets/img except favicon.png (or replace it with your own)
 * rename your repo to ***your-username*.github.io**
 
 ### License
