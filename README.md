@@ -1,8 +1,8 @@
 # Blog
-My blog made with [jekyll](http://jekyllrb.com) and hosted with Github Pages.
+This is my blog made with [jekyll](http://jekyllrb.com) and hosted with GitHub Pages. 
 
 
-### Want a github page like this one?
+### Want a GitHub Page like this one?
 
 * fork this repository
 * edit the `_config.yml` with your info
