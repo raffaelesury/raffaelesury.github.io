@@ -3,14 +3,15 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for page in site.pages %}
+ 
+    {% for item in site.data.navigation %}
     <url>
-        <loc>https://raffaelesury.github.io{{ page.url | remove: 'index.html' }}</loc>
+        <loc>https://raffaelesury.github.io{{ item.url | remove: 'index.html' }}</loc>
     </url>
     {% endfor %}
     {% for post in site.posts %}
     <url>
-        <loc>https://raffaelesury.github.io{{ page.url | remove: 'index.html' }}</loc>
+        <loc>https://raffaelesury.github.io{{ post.url | remove: 'index.html' }}</loc>
     </url>
     {% endfor %}    
     
