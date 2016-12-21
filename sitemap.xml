@@ -6,7 +6,7 @@ layout: null
  
     {% for item in site.data.navigation %}
     <url>
-        <loc>https://raffaelesury.github.io{{ item.url | remove: 'index.html' }}</loc>
+        <loc>{{ item.url | remove: 'index.html' }}</loc>
     </url>
     {% endfor %}
     {% for post in site.posts %}
