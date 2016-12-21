@@ -1,11 +1,10 @@
 # Blog settings
-permalink: /blog/:title
+permalink: /posts/:title
 
 
 # My variables
 name: Raffaele Sury
 description: My personal page
-google_verification: null
 google_analytics: UA-89371003-1
 
 
