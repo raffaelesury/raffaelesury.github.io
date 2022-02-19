@@ -14,6 +14,7 @@ if "%1" == "" goto help
 
 if "%1" == "github" (
 	%SPHINXBUILD% -M html %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
+	type NUL > %BUILDDIR%/html/.nojekyll
 	robocopy %BUILDDIR%/html ./docs /MIR >NUL
 	echo.Generated files copied to ./docs
 	goto end
